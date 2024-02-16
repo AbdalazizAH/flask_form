@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج النتائج</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0;">
+    <div style="width: 50%; margin: 50px auto; background-color: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        <h2 style="text-align: center;">نموذج النتائج</h2>
+        <form action="http://localhost:5000/result" method="POST" style="margin-top: 20px;">
+            <p style="margin-bottom: 15px;">الاسم <input type="text" name="Name" style="width: calc(100% - 20px); padding: 8px; border: 1px solid #ccc; border-radius: 3px;"></p>
+            <p style="margin-bottom: 15px;">الفيزياء <input type="text" name="Physics" style="width: calc(100% - 20px); padding: 8px; border: 1px solid #ccc; border-radius: 3px;"></p>
+            <p style="margin-bottom: 15px;">الكيمياء <input type="text" name="Chemistry" style="width: calc(100% - 20px); padding: 8px; border: 1px solid #ccc; border-radius: 3px;"></p>
+            <p style="margin-bottom: 15px;">الرياضيات <input type="text" name="Maths" style="width: calc(100% - 20px); padding: 8px; border: 1px solid #ccc; border-radius: 3px;"></p>
+            <p><input type="submit" value="إرسال" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 3px; cursor: pointer;"></p>
+        </form>
+    </div>
+</body>
+</html>
